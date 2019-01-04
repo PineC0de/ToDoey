@@ -83,13 +83,12 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="soi-p8-fKt">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
-                                <action selector="addButtonPressed:" destination="e3z-dV-6C8" id="UVd-ra-iOi"/>
+                                <action selector="addButtonPressed:" destination="P4G-a2-eAW" id="C3f-Zk-hXH"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NVK-rI-GyB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="e3z-dV-6C8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2300" y="133"/>
         </scene>
