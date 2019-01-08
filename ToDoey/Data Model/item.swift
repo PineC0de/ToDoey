@@ -1,18 +1,18 @@
 //
-//  model.swift
+//  Item.swift
 //  ToDoey
 //
-//  Created by Travis Goins on 12/10/18.
+//  Created by Travis Goins on 12/28/18.
 //  Copyright © 2018 Travis Goins. All rights reserved.
 //
 
 import Foundation
+import RealmSwift
 
-class Item: Codable {
+class Item: Object {
     
-    var title : String = ""
-    
-    var done : Bool = false
-    
+   @objc dynamic var dateCreated : Date?
+   @objc dynamic var title : String = ""
+   @objc dynamic var done : Bool = false
+    var parentCategory = LinkingObjects(fromType: Category.self, property: "items")
 }
-
